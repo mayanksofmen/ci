@@ -30,7 +30,7 @@
 
                     <button type="submit" class="btn bg-olive btn-block">Sign me up</button>
 
-                    <a href="<?php echo base_url(); ?>index.php/Home/index" class="text-center">I already have a membership</a>
+                    <a href="<?php echo base_url(); ?>Home/index" class="text-center">I already have a membership</a>
                 </div>
             </form>
 
