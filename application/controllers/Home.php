@@ -15,7 +15,7 @@ class Home extends CI_Controller
     
 	  function index()
 	  {
-        /*if($this->session->userdata('logged_in'))
+        if($this->session->userdata('logged_in'))
         {    
           $data['content'] = "user_view";
           //$userinfo = $this->home_model->get_usercontents(); 
@@ -73,7 +73,7 @@ class Home extends CI_Controller
             }  
                   
               //$this->load->view("template",$data);            
-        } */  
+        }   
         
       } 	
    
